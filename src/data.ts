@@ -12,10 +12,10 @@ type Products = Product[];
 export const featuredProducts: Products = [
   {
     id: 1,
-    title: "Sicilian",
-    desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+    title: "Bankgkok Blaze",
+    desc: "Sear your senses with a thrilling mix of Thai basil chicken, bird's eye chilies, garlic stir-fry sauce, and fragrant jasmine rice—spicy, savory, and fiercely unforgettable.",
     img: "/temporary/p1.png",
-    price: 24.9,
+    price: 15.0,
     options: [
       {
         title: "Small",
@@ -33,10 +33,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 2,
-    title: "Bacon Deluxe",
-    desc: "Indulge in smoky goodness with a flame-grilled beef patty, topped with crispy bacon, melted cheddar cheese, caramelized onions, and a smattering of tangy BBQ sauce.",
+    title: "Andean Inferno",
+    desc: "Taste the fire of the Andes with quinoa-stuffed peppers, roasted aji amarillo sauce, black beans, and a molten cheese crust—earthy, fiery, and bold.",
     img: "/temporary/p2.png",
-    price: 29.9,
+    price: 16.5,
     options: [
       {
         title: "Small",
@@ -54,10 +54,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 3,
-    title: "Bella Napoli",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
+    title: "Tokyo Thunder Roll",
+    desc: "Unleash flavor with this fusion sushi roll packed with tempura shrimp, wasabi aioli, pickled radish, spicy mayo, and crispy shallots—electrifying every bite.",
     img: "/temporary/p3.png",
-    price: 24.9,
+    price: 17.0,
     options: [
       {
         title: "Small",
@@ -75,10 +75,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 4,
-    title: "Spicy Arrabbiata",
-    desc: "Ignite your taste buds with this fiery pasta creation, combining penne in a spicy tomato sauce infused with garlic, red chili flakes, and fresh basil for the ultimate comfort food experience.",
+    title: "Moroccan Mayhem",
+    desc: "A whirlwind of flavor—spiced lamb meatballs, harissa-tomato glaze, preserved lemon couscous, and charred eggplant purée, blending heat and heritage.",
     img: "/temporary/p4.png",
-    price: 26.9,
+    price: 18.0,
     options: [
       {
         title: "Small",
@@ -96,10 +96,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 5,
-    title: "Jalapeño Fiesta",
-    desc: "Ignite your taste buds with a fiery kick! This burger features a succulent beef patty, fiery jalapeños, pepper jack cheese, and a zesty chipotle mayo sauce , and all the classic fixings on a toasted bun.",
+    title: "Nordic Flame",
+    desc: "Smoked Arctic char meets horseradish cream, pickled red onion, rye crisps, and dill fire oil—a cold-country dish with a sizzling twist.",
     img: "/temporary/p5.png",
-    price: 29.9,
+    price: 19.0,
     options: [
       {
         title: "Small",
@@ -117,10 +117,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 6,
-    title: "Margherita Magic",
-    desc: "A timeless favorite with a twist, showcasing a thin crust topped with sweet tomatoes, fresh basil, creamy mozzarella, and a drizzle of extra virgin olive oil, fresh arugula, and a drizzle of balsamic glaze.",
+    title: "Tex-Mess Meltdown",
+    desc: "A wild combo of chili brisket, ghost pepper queso, crushed corn chips, and smoky chipotle sauce—messy, molten, and addictively spicy.",
     img: "/temporary/p6.png",
-    price: 24.9,
+    price: 16.0,
     options: [
       {
         title: "Small",
@@ -138,10 +138,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 7,
-    title: "Garlic Parmesan Linguine",
-    desc: "A garlic lover's delight, featuring linguine smothered in a creamy Parmesan sauce, infused with garlic and garnished with chopped parsley, bell peppers, and cherry tomatoes.",
+    title: "Punjabi Pyro",
+    desc: "Turn up the heat with paneer tikka, green chili chutney, spiced chickpeas, and fenugreek-laced naan—bold spices in a blazing blend.",
     img: "/temporary/p7.png",
-    price: 28.9,
+    price: 15.5,
     options: [
       {
         title: "Small",
@@ -159,10 +159,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 8,
-    title: "Mediterranean Delight",
-    desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
+    title: "Seoul Sizzler",
+    desc: "Gochujang-glazed pork belly, kimchi slaw, garlic rice, and fire-roasted scallions served in a sizzling hot stone bowl—sweet, sour, and scorching.",
     img: "/temporary/p8.png",
-    price: 32.9,
+    price: 18.5,
     options: [
       {
         title: "Small",
@@ -180,10 +180,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 9,
-    title: "Hawaiian Teriyaki",
-    desc: "Experience a taste of the tropics with a juicy beef patty glazed in tangy teriyaki sauce, topped with grilled pineapple, crispy bacon, and fresh lettuce, and all the classic fixings on a toasted bun.",
+    title: "Balkan Burnout",
+    desc: "Feast on ajvar-grilled sausages, fiery feta dip, pickled cabbage, and flaky flatbread—hearty Balkan street food with a spicy edge.",
     img: "/temporary/p9.png",
-    price: 29.9,
+    price: 16.0,
     options: [
       {
         title: "Small",
@@ -369,24 +369,24 @@ export const menu: Menu = [
   {
     id: 1,
     slug: "pastas",
-    title: "Italian Pastas",
-    desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
+    title: "Global Heatwave",
+    desc: "Spicy street food sensations from around the world.",
     img: "/temporary/m1.png",
     color: "white",
   },
   {
     id: 2,
     slug: "burgers",
-    title: "Juicy Burgers",
-    desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
+    title: "Twisted Traditions",
+    desc: "Classics reimagined with bold heat and fusion flair.",
     img: "/temporary/m2.png",
-    color: "black",
+    color: "white",
   },
   {
     id: 3,
     slug: "pizzas",
-    title: "Cheesy Pizzas",
-    desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
+    title: "Spice Without Borders (Vegetarian)",
+    desc: "Fiery dishes powered by plants and global spices.",
     img: "/temporary/m3.png",
     color: "white",
   },
