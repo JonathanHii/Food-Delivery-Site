@@ -368,7 +368,7 @@ type Menu = {
 export const menu: Menu = [
   {
     id: 1,
-    slug: "pastas",
+    slug: "hot",
     title: "Global Heatwave",
     desc: "Spicy street food sensations from around the world.",
     img: "/temporary/m1.png",
@@ -376,7 +376,7 @@ export const menu: Menu = [
   },
   {
     id: 2,
-    slug: "burgers",
+    slug: "twist",
     title: "Twisted Traditions",
     desc: "Classics reimagined with bold heat and fusion flair.",
     img: "/temporary/m2.png",
@@ -384,7 +384,7 @@ export const menu: Menu = [
   },
   {
     id: 3,
-    slug: "pizzas",
+    slug: "veg",
     title: "Spice Without Borders (Vegetarian)",
     desc: "Fiery dishes powered by plants and global spices.",
     img: "/temporary/m3.png",
